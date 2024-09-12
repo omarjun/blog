@@ -2,9 +2,6 @@ import React, { useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faUser } from '@fortawesome/free-solid-svg-icons';
 import Dropdown from './Dropdown';
-import LogoutBtn from './LogoutBtn';
-import { Link } from 'react-router-dom';
-
 
 function ProfileIcon() {
   const [isDropdownVisible, setDropdownVisible] = useState(false);
